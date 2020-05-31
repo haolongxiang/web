@@ -1,0 +1,141 @@
+.header {
+	width: 100%;
+	height: 125px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.header .top {
+	width: 100%;
+	height: 45px;
+	background-color: #333;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.header .top .fr {
+	color: #ffffff;
+	height: 45px;
+	line-height: 45px;
+}
+
+.header .top .fr span {
+	font-size: 20px;
+	margin-right: 28px;
+}
+
+.header .top .fr a {
+	color: #fff;
+	font-size: 14px;
+	margin: 0px 14px 0;
+}
+
+.nav {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.nav .fl {
+	display: block;
+	margin-top: 12px;
+}
+
+.nav .fr ul li {
+	float: left;
+}
+
+.nav .fr ul li a {
+	color: #000;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	width: 100px;
+	height: 76px;
+	line-height: 76px;
+}
+
+.nav .fr ul li a:hover {
+	color: #e8420a;
+	border-bottom: 4px solid #e8420a;
+}
+
+.content {
+	width: 100%;
+	height: 724px;
+	background-color: #f5f5f5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.content-top {
+    line-height: 97px;
+}
+.content-top a {
+    font-size: 18px;
+    color: #333;
+}
+.content-bottom{
+    height: 545px;
+    padding: 15px;
+    background-color: #fff;
+}
+.content-bottom ul{
+	padding-top: 5px;
+}
+.content-bottom ul li{
+    float: left;
+    margin-left: 4px;
+}
+.content-bottom ul li:first-child{
+    margin-left: 0;
+}
+.con-right{
+    width: 465px;
+}
+.con-right h3{
+	font-weight: bold;
+    font-size: 30px;
+    line-height: 94px;
+}
+.con-right p{
+    font-size: 20px;
+    line-height: 40px;
+    color: #666;
+}
+
+.fudong{
+	width: 47px;
+	height: 390px;
+	position: fixed;
+	right: 0;
+	top: 130px;
+}
+.fudong ul{
+    width: 47px;
+    height: 390px;
+}
+.fudong ul li{
+    background-color: #1c5080;
+    height: 47px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.fudong ul li img{
+    margin-top: 9px;
+}
+.fudong ul .dingzhi{
+    height: 150px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #e8420a;
+}
+.fudong ul .dingzhi a{
+	color: #FFFFFF;
+}
